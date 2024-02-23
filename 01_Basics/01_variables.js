@@ -6,7 +6,6 @@ let accountState;  // declaring variable without any assigned value
 
 // accountId = 202 // not allowed , TypeError: Assignment to constant variable.
 // console.log(accountId);
-
 accountEmail ="himel@fb.com"
 accountPassword="0076"
 accountCity ="Khulna"
