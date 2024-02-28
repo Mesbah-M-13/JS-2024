@@ -22,7 +22,7 @@ let userEmail;
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id === anotherId);
+//console.log(id === anotherId);
 
 // const bigNumber = 3456543576654356754n
 
@@ -42,7 +42,7 @@ const myFunction = function(){
    // console.log("Hello world");
 }
 
-console.log(typeof anotherId);
+//console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
 
@@ -65,4 +65,35 @@ console.log(typeof anotherId);
 | Arrays                  | object          |
 | Function                | function object |
 | Object                  | object          |
+*/
+
+
+// ++++++++++++++++++++++   Memory Allocation in JS  +++++++++++++++++++++++
+
+// Stack(Primitive) Heap(Non-primitive)
+// Stack - give us a copy of a variable
+// Heap - give us a reference of the original value, any kinds of change makes the same changes in the original value
+
+let myGmailName = "mesbah098@gmail.com"
+
+let anotherName = myGmailName
+anotherName ="m.himel@gamil.com"
+
+// console.table([myGmailName,anotherName]);
+// console.table(anotherName);
+
+
+let userOne ={
+    name:"Himel",
+    nid: 2023,
+}
+
+let userTwo= userOne
+userTwo.nid = 2024
+
+console.table([userOne,userTwo]);
+
+/* 
+
+
 */
