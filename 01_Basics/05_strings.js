@@ -30,6 +30,6 @@ const url = "https://himel.com/himel%20mesbah"
 
 console.log(url.replace('%20', '-'))
 
-console.log(url.includes('sundar'))
+console.log(url.includes('bah'))
 
 console.log(gameName.split('-'));
