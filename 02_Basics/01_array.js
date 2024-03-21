@@ -60,13 +60,33 @@ const myn2 = myArr.splice(1, 3)
 
 const arrOne = [10,11,12,14,15]
 arrOne.push(16)
-console.log(arrOne);
+//console.log(arrOne);
 
 arrOne.shift()
 console.log(arrOne);
 
 arrOne.pop()
-console.log(arrOne);
+//console.log(arrOne);
+
+
+const elements = ['Fire', 'Air', 'Water'];
+
+const newElem = elements.join(' & ')
+// console.log(typeof newElem);
+
+
+const animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
+//console.log(animals.slice(0,4)); // ['ant', 'bison', 'camel', 'duck']
+//console.log(animals.slice(3,4)); // ['duck']
+//console.log(animals.slice(-3)); // ['ant', 'bison', 'camel'] ; end not included here
+
+//console.log(animals.slice(1, -2)); ['bison', 'camel']
+
+
+const allAnimals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
+console.log(allAnimals.splice(1,3,"Lion","Tiger"));
+console.log(allAnimals);
+
 
 
 
